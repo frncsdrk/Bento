@@ -21,7 +21,7 @@
   --sfg: #494949; /* Sceondary Foreground color */
 
   /* Light Colors  */
-  --accent: #57a0d9; /* Hover color */
+  --accent: #a9b1d6; /* Hover color */
   --background: #f5f5f5; /* Background color */
   --cards: #e4e6e6; /* Cards color */
 
@@ -35,9 +35,9 @@
 
 .darktheme {
   /* Dark Colors  */
-  --accent: #57a0d9; /* Hover color */
-  --background: #19171a; /* Background color */
-  --cards: #201e21; /* Cards color */
+  --accent: #7095e4; /* Hover color */
+  --background:#1a1b26; /* Background color */
+  --cards: #282a3b; /* Cards color */
 
   /* Fonts Color */
   --fg: #d8dee9; /* Foreground color */
@@ -120,7 +120,7 @@ body {
 
 .timeBlock {
   grid-row: 1 / span 2;
-  grid-column: 1 / span 2;
+  grid-column: 2 / span 2;
   display: flex;
   flex-direction: column;
   align-items: center;
