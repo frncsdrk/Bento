@@ -20,17 +20,19 @@ const CONFIG = {
 	greetingMorning: 'Good morning!',
 	greetingAfternoon: 'Good afternoon,',
 	greetingEvening: 'Good evening,',
-	greetingNight: 'Hav a nice night,',
+	greetingNight: 'Have a nice night,',
 
 	// Layout
 	bentoLayout: 'bento', // 'bento', 'lists', 'buttons'
 
 	// Weather
-    // NOTE: disabled
-	weatherKey: 'InsertYourAPIKeyHere123456', // Write here your API Key
-	weatherIcons: 'OneDark', // 'Onedark', 'Nord', 'Dark', 'White'
-	weatherUnit: 'C', // 'F', 'C'
-	language: 'en', // More languages in https://openweathermap.org/current#multi
+    weather: {
+        enabled: false,
+	    weatherKey: 'InsertYourAPIKeyHere123456', // Write here your API Key
+	    weatherIcons: 'OneDark', // 'Onedark', 'Nord', 'Dark', 'White'
+	    weatherUnit: 'C', // 'F', 'C'
+	    language: 'en', // More languages in https://openweathermap.org/current#multi
+    },
 
 	trackLocation: false, // If false or an error occurs, the app will use the lat/lon below
 	defaultLatitude: '37.775',

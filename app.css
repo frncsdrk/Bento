@@ -361,3 +361,8 @@ body {
     padding-right: 100px;
   }
 }
+
+/* U T I L S */
+.hide {
+    display: none;
+}
