@@ -25,6 +25,9 @@
   --background: #f5f5f5; /* Background color */
   --cards: #e4e6e6; /* Cards color */
 
+  --bg: var(--background); /* Background color */
+  --sbg: var(--cards); /* Secondary Background color */
+
   /* Image background  */
   --imgbg: url(assets/background.jpg); /* Image URL */
   --imgcol: linear-gradient(
@@ -36,8 +39,12 @@
 .darktheme {
   /* Dark Colors  */
   --accent: #7095e4; /* Hover color */
-  --background:#1a1b26; /* Background color */
+  --background: #1a1b26; /* Background color */
   --cards: #282a3b; /* Cards color */
+
+  --bg: var(--background); /* Background color */
+  --sbg: var(--cards); /* Secondary Background color */
+  --tbg: #414868; /* Tertiary Background color (notifications) */
 
   /* Fonts Color */
   --fg: #d8dee9; /* Foreground color */
@@ -102,7 +109,7 @@ body {
   height: 85vh;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(4, 1fr);
+  grid-template-rows: repeat(5, 1fr);
   grid-gap: 30px;
   padding: 20px;
 }
@@ -134,6 +141,33 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+
+.searchBlock {
+  grid-column: 2 / span 2;
+  grid-row: 3 / span 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+/* reset */
+input {
+  all: unset;
+}
+/* /reset */
+.searchInput {
+  color: var(--fg);
+  font-size: 36px;
+  border-bottom: 2px solid var(--sbg);
+  border-radius: 0;
+}
+.searchInput:hover {
+  border-bottom: 2px solid var(--tbg);
+}
+.searchInput:focus,
+.searchInput:active {
+  border-bottom: 2px solid var(--accent);
 }
 
 .date {
@@ -206,7 +240,7 @@ body {
 }
 
 .linksBlock {
-  grid-row: 3 / span 2;
+  grid-row: 4 / span 2;
   grid-column: 1 / span 4;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
