@@ -38,8 +38,9 @@ const CONFIG = {
     },
 
     // Search
+    // Use Ctrl+k instead
     search: {
-        enabled: true,
+        enabled: false,
         queryUrl: 'https://duckduckgo.com/?q='
     },
 
