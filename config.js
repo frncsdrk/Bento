@@ -18,6 +18,7 @@ const CONFIG = {
 
 	// Greetings
     greetings: {
+        enabled: true,
         showName: false,
 	    morning: 'Good morning',
 	    afternoon: 'Good afternoon',

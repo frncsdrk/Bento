@@ -7,9 +7,13 @@
     const hour = today.getHours();
     const name = CONFIG.name;
 
-    const greeter = document.getElementById('greetings');
+    const greeter = document.querySelector('#greetings');
 
     const cfg = CONFIG.greetings;
+
+    if (cfg.enabled) {
+        greeter.classList.remove('hide');
+    }
     
     let greeting = getGreeting(hour);
     if (cfg.showName) {
@@ -20,7 +24,7 @@
 
     function getGreeting(hour) {
         if (hour >= 23 || hour < 6) {
-     	    return cfg.night;
+    	    return cfg.night;
         } else if (hour >= 6 && hour < 12) {
         	return cfg.morning;
         } else if (hour >= 12 && hour < 17) {
