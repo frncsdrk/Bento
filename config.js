@@ -175,12 +175,12 @@ const CONFIG = {
 			id: '2',
 			links: [
 				{
-					name: 'Linkedin',
-					link: 'https://www.linkedin.com',
+					name: 'randomgoods',
+					link: 'https://github.com/randomgoods',
 				},
 				{
-					name: 'Dribbble',
-					link: 'https://www.dribbble.com',
+					name: 'Repos',
+					link: 'https://github.com/frncsdrk?tab=repositories',
 				},
 				{
 					name: 'Trello',
