@@ -153,8 +153,8 @@ const CONFIG = {
 			id: '1',
 			links: [
 				{
-					name: 'Inspirational',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: 'Rock Beats',
+					link: 'https://music.youtube.com/playlist?list=RDATgFXmY&playnext=1&si=bM_9SgM8JJO9K3jI',
 				},
 				{
 					name: 'Classic',
@@ -175,12 +175,12 @@ const CONFIG = {
 			id: '2',
 			links: [
 				{
-					name: 'randomgoods',
-					link: 'https://github.com/randomgoods',
-				},
-				{
 					name: 'Repos',
 					link: 'https://github.com/frncsdrk?tab=repositories',
+				},
+                {
+					name: 'RandomGoods',
+					link: 'https://github.com/randomgoods',
 				},
 				{
 					name: 'Trello',
