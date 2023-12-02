@@ -153,20 +153,20 @@ const CONFIG = {
 			id: '1',
 			links: [
 				{
-					name: 'Rock Beats',
-					link: 'https://music.youtube.com/playlist?list=RDATgFXmY&playnext=1&si=bM_9SgM8JJO9K3jI',
+					name: 'Chill',
+					link: 'https://www.youtube.com/watch?v=v7aH0CiGXHc',
 				},
 				{
-					name: 'Classic',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: 'Indie',
+					link: 'https://www.youtube.com/watch?v=bFr2BnXdauM',
 				},
 				{
-					name: 'Oldies',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: 'Funky',
+					link: 'https://www.youtube.com/watch?v=_rjQucJUWxk',
 				},
 				{
-					name: 'Rock',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: 'Dance',
+					link: 'https://www.youtube.com/watch?v=SfRbec7l-3o',
 				},
 			],
 		},
