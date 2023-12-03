@@ -157,8 +157,8 @@ const CONFIG = {
 					link: 'https://www.youtube.com/watch?v=v7aH0CiGXHc',
 				},
 				{
-					name: 'Indie',
-					link: 'https://www.youtube.com/watch?v=bFr2BnXdauM',
+					name: 'Sunset Drive',
+					link: 'https://www.youtube.com/watch?v=iJ90b8dE31A',
 				},
 				{
 					name: 'Funky Cruisin\'',
