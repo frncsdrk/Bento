@@ -161,8 +161,8 @@ const CONFIG = {
 					link: 'https://www.youtube.com/watch?v=bFr2BnXdauM',
 				},
 				{
-					name: 'Funky',
-					link: 'https://www.youtube.com/watch?v=_rjQucJUWxk',
+					name: 'Funky Cruisin\'',
+					link: 'https://www.youtube.com/watch?v=eSaR5lvgCCg',
 				},
 				{
 					name: 'Dance',
