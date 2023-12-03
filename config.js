@@ -165,8 +165,8 @@ const CONFIG = {
 					link: 'https://www.youtube.com/watch?v=eSaR5lvgCCg',
 				},
 				{
-					name: 'Dance',
-					link: 'https://www.youtube.com/watch?v=SfRbec7l-3o',
+					name: 'Roadside Avenue',
+					link: 'https://www.youtube.com/watch?v=bhoz9Ptcvcw',
 				},
 			],
 		},
