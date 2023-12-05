@@ -168,6 +168,11 @@ const CONFIG = {
 					name: 'Roadside Avenue',
 					link: 'https://www.youtube.com/watch?v=bhoz9Ptcvcw',
 				},
+                // TODO: Make lists freely extendable
+                {
+					name: 'Electro',
+					link: 'https://www.youtube.com/watch?v=R4zqMIRaUQ4',
+				},
 			],
 		},
 		{
