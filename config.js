@@ -165,8 +165,8 @@ const CONFIG = {
 					link: 'https://www.youtube.com/watch?v=eSaR5lvgCCg',
 				},
 				{
-					name: 'Roadside Avenue',
-					link: 'https://www.youtube.com/watch?v=bhoz9Ptcvcw',
+					name: 'Settle Channel Mixes',
+					link: 'https://www.youtube.com/@settlefm/videos',
 				},
                 // TODO: Make lists freely extendable
                 {
