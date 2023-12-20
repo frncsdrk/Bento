@@ -153,8 +153,8 @@ const CONFIG = {
 			id: '1',
 			links: [
 				{
-					name: 'Chill',
-					link: 'https://www.youtube.com/watch?v=v7aH0CiGXHc',
+					name: 'Chill Music Lab - Music for Work',
+					link: 'https://www.youtube.com/watch?v=vvGTc3LJtVQ',
 				},
 				{
 					name: 'Sunset Drive',
