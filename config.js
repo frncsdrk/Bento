@@ -164,11 +164,15 @@ const CONFIG = {
 					name: 'Funky Cruisin\'',
 					link: 'https://www.youtube.com/watch?v=eSaR5lvgCCg',
 				},
+                {
+                    name: 'The Rise of the King',
+                    link: 'https://www.youtube.com/watch?v=plUbdkxhov8',
+                },
+                // TODO: Make lists freely extendable
 				{
 					name: 'Settle Channel Mixes',
 					link: 'https://www.youtube.com/@settlefm/videos',
 				},
-                // TODO: Make lists freely extendable
                 {
 					name: 'Electro',
 					link: 'https://www.youtube.com/watch?v=R4zqMIRaUQ4',
